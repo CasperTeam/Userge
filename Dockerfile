@@ -33,7 +33,7 @@ RUN mkdir -p /tmp/ && \
 
 ENV GOOGLE_CHROME_DRIVER /usr/bin/chromedriver
 ENV GOOGLE_CHROME_BIN /usr/bin/google-chrome-stable
-
+RUN apt-get install wkhtmltopdf -y
 # install node-js
 RUN curl -sL https://deb.nodesource.com/setup_16.x | bash - && \
     apt-get install -y nodejs && \
