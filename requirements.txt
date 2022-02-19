@@ -44,3 +44,10 @@ wget
 wikipedia
 youtube_dl>=2021.1.8
 youtube-search-python==1.4.9
+webscreenshot
+argparse
+aiofiles
+pyromod
+fake_useragent
+wkhtmltopdf
+htmlwebshot
